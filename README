@@ -1,0 +1,40 @@
+NAME
+    Padre::Plugin::Pip - A Padre plugin for the pip installer tool
+
+DESCRIPTION
+    This plugin provides relatively simple GUI access to the pip command
+    line installation tool.
+
+    After installation there should be a menu items *Padre - Plugins - Pip -
+    Install Distribution File* and *Padre - Plugins - Pip - Install
+    Distribution URI*.
+
+    As the distribution installs, the output will be spooled to the output
+    window.
+
+TO DO
+    Add variants that use a file selector, and that sniff the Clipboard for
+    a URL to install.
+
+SUPPORT
+    Bugs should always be submitted via the CPAN bug tracker, located at
+
+    <http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Padre-Plugin-Pip>
+
+    For general comments, contact the author.
+
+AUTHOR
+    Adam Kennedy <adamk@cpan.org>
+
+SEE ALSO
+    Padre
+
+COPYRIGHT
+    Copyright 2008 Adam Kennedy.
+
+    This program is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
+
+    The full text of the license can be found in the LICENSE file included
+    with this module.
+

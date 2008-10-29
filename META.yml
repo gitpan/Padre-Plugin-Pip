@@ -1,0 +1,26 @@
+---
+abstract: 'A Padre plugin for the pip installer tool'
+author:
+  - 'Adam Kennedy <adamk@cpan.org>'
+build_requires:
+  Test::More: 0.42
+  Test::NeedsDisplay: 1.05
+distribution_type: module
+generated_by: 'Module::Install version 0.77'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+module_name: Padre::Plugin::Pip
+name: Padre-Plugin-Pip
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  Padre: 0.13
+  perl: 5.8.0
+  pip: 0.13
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.13
